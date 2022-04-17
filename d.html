@@ -1,0 +1,97 @@
+<HTML>
+<HEAD>
+<TITLE>ZIRCON ACTIVITY</TITLE>
+<link rel="stylesheet" href="style.css" type="text/css">
+</HEAD>
+<BODY background="E:\website\img\l.jpg";>
+  <div class="div1" >
+    <img class="logo" src="E:\website\img\logo.jpeg">
+    </div>
+  <div class="div2">
+    <h1>CIRCUITRY</h1>
+  </div>
+ <div class="div3">
+    <video class="video"controls autoplay >
+    <source src="E:\website\aadhar.mp4" type="video/mp4">
+  </video>
+</div>
+  <p class="p">Circuitry is the study of creating electronic or electric circuits, as well as the exact layout or organisation of an electric circuit. The most crucial aspect of electronics is circuitry. Circuits are all around us, from light bulbs to microprocessors. Depending on the output required, circuits can be created in a number of sizes, shapes, and styles. Circuitry not only allows us to build and test circuits, but it also allows us to experiment with different arrangements to produce a different outcome each time. Circuitry opens up a world of new possibilities and study. Some experiments would succeed, while others would fail, but each would teach you something new. We tend to focus on how many engineering domains come together to create something, but we often overlook the importance of the human element.
+  </p>
+  <br>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 8</div>
+  <img src="E:\website\img\1.jpeg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 8</div>
+  <img src="E:\website\img\2.jpeg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 8</div>
+  <img src="E:\website\img\3.jpeg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 8</div>
+  <img src="E:\website\img\4.jpeg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 8</div>
+  <img src="E:\website\img\5.jpeg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 8</div>
+  <img src="E:\website\img\6.jpeg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">7 / 8</div>
+  <img src="E:\website\img\7.jpeg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 8</div>
+  <img src="E:\website\img\8.jpeg" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</BODY>
+</HTML>
